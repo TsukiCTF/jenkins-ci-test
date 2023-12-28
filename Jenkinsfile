@@ -20,7 +20,8 @@ pipeline {
             steps {
                 echo "STAGE Testing.."
                 sh '''
-                echo "doing test stuff.."
+                echo "running hello.py"
+                python hello.py
                 '''
             }
         }
