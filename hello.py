@@ -1,2 +1,8 @@
 #!/usr/bin/env python3
-print("Bye from python!")
+import fire
+
+def hello(name="World"):
+    return f"Hello {name}"
+
+if __name__ == '__main__':
+    fire.Fire(hello)
